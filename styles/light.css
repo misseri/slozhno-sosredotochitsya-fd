@@ -14,8 +14,8 @@
   --accent-color: #ff8dcb;
   --title-text-color: #353430;
   --list-item-text-color: #353430;
-  --button-hover-color: #353430;
-  --background-image-dark: url("../images/cover-image-light.png");
+  --button-hover-color: #32312d66;
+  --background-image: url("../images/cover-image-light.png");
   --section-title-color: #353430;
   --decorative-item-state: none;
   --decorative-item-color: #353430;
@@ -29,12 +29,12 @@
     --accent-color: #ff8dcb;
     --title-text-color: #353430;
     --list-item-text-color: #353430;
-    --button-hover-color: #353430;
-    --background-image-dark: url("../images/cover-image-light.png");
+    --button-hover-color: #32312d66;
+    --background-image: url("../images/cover-image-light.png");
     --section-title-color: #353430;
     --decorative-item-state: none;
     --decorative-item-color: #353430;
   }
 
   /* Остальные стили, только при необходимости */
-} 
+}
