@@ -3,14 +3,14 @@
   и их переопределение под различные устройства
 */
 :root {
-  --background-image-dark: url("../images/cover-image-dark.png");
+  --background-image: url("../images/cover-image-dark.png");
   --font: "IBM Plex mono", sans-serif;
   --button-color: #ff0070;
   --title-color: #db00ff;
   --accent-color: #ff0070;
   --title-text-color: #000028;
   --list-item-text-color: #f1b2ce;
-  --button-hover-color: #ff006f56;
+  --button-hover-color: #ff007066;
   --footer-title-color: #ff0070;
   --section-title-color: #ff0070;
   --decorative-item-state: inline-block;

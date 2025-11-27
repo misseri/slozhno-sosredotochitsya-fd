@@ -9,6 +9,20 @@
   background-attachment: fixed;
 }
 
+h2,
+h3 {
+  font-weight: var(--font-bold);
+  font-size: var(--font-size);
+  line-height: 130%;
+  color: var(--title-text-color);
+}
+p {
+  font-weight: var(--font-normal);
+  font-size: var(--font-size);
+  line-height: 130%;
+}
+/* вынес стили из main__section-title */
+
 .content {
   display: flex;
   flex-direction: column;
@@ -158,10 +172,8 @@
 }
 
 .main__section-title {
-  font-weight: var(--font-bold);
-  font-size: var(--font-size);
-  line-height: 130%;
   color: var(--section-title-color);
+  /* теперь это доп стиль только для изменения цвета заголовка. */
 }
 
 .main__section-additional-title {
@@ -187,17 +199,7 @@
   gap: 10px;
 }
 
-.section__list-item-title {
-  font-weight: var(--font-bold);
-  font-size: var(--font-size);
-  line-height: 130%;
-  color: var(--title-text-color);
-}
-
 .section__list-item-text {
-  font-weight: var(--font-normal);
-  font-size: var(--font-size);
-  line-height: 130%;
   color: var(--list-item-text-color);
 }
 
@@ -361,7 +363,7 @@
 
 @media (width >= 1024px) {
   .content {
-    gap: 40px;
+    gap: 60px;
   }
 
   .header__theme-menu {
@@ -395,8 +397,13 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
+
+  .main__container-gallery {
+    padding-block-end: 0px;
+  }
+
   .footer {
-    padding: 20px;
+    padding: 0px 20px 0px 20px;
   }
 
   .footer__title {
