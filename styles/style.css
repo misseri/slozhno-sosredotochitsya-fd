@@ -9,19 +9,19 @@
   background-attachment: fixed;
 }
 
-h2,
-h3 {
+.titles {
   font-weight: var(--font-bold);
   font-size: var(--font-size);
   line-height: 130%;
   color: var(--title-text-color);
-}
-p {
+} /*заменил h2, h3 на общий класс titles*/
+
+.texts {
   font-weight: var(--font-normal);
   font-size: var(--font-size);
   line-height: 130%;
 }
-/* вынес стили из main__section-title */
+/* заменил тег p на общий класс texts */
 
 .content {
   display: flex;
@@ -282,7 +282,7 @@ p {
 
   .header {
     padding: 0px;
-    height: 1024px;
+    height: 100vh;
   }
   .header__theme-menu {
     padding-top: 20px;
